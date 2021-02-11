@@ -1,7 +1,7 @@
 # search-autocomplete
  Auto complete API, provides recommendation for type ahead.
  
- App provides two api one for adding sample strings to cache, one for getting recommedations from the search.
+ App provides two api's one for adding sample strings to cache, one for getting recommedations from the search.
  
  one can use below curl api for loading sample data to cache
  
