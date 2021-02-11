@@ -27,6 +27,6 @@ public class SearchAutoCompleteApplicationService implements ISearchAutoComplete
 
   @Override
   public Set<String> getRecommendations(String query) {
-    return postProcessorService.process(cache.get(query));
+    return postProcessorService.process(cache.get(query.toLowerCase()));
   }
 }
