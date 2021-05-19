@@ -1,5 +1,5 @@
 # search-autocomplete
- Auto complete API, provides recommendation for type ahead.
+ Auto complete thread safe API, provides recommendation for type ahead.
  
  App provides two api's one for adding sample strings to cache, one for getting recommedations from the search.
  
