@@ -2,11 +2,7 @@ name: Java Build and Test
 
 on:
   push:
-    branches-ignore:
-      - '*'
   pull_request:
-    branches-ignore:
-      - '*'
 
 jobs:
   build-and-test:
